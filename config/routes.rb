@@ -1,4 +1,7 @@
 DemoApp::Application.routes.draw do
+  resources :user1s
+
+
   get "pages/home"
 
   get "pages/contact"
