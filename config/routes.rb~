@@ -9,7 +9,7 @@ DemoApp::Application.routes.draw do
   match '/about', :to => 'pages#about'
   match '/help', :to => 'pages#help'
   #match '/', :to => 'pages#home'
-  match '/signup', :to => 'user1s#new'
+  match '/signup', :to => 'users#new'
   root :to => 'pages#home'
   
   # The priority is based upon order of creation:
